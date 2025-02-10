@@ -372,6 +372,14 @@ body, html{
 .noshow{
     display: none;
 }
+.closeicon{
+    margin-right: 20px;
+    float: right;
+    color: #eee;
+    font-size: 100px;
+    font-weight:lighter;
+    cursor: pointer;
+}
 .ytp{
     width: 100%;
     height: 100%;
@@ -394,13 +402,20 @@ iframe{
     top: 12%;
 }
 @media (max-width:980px) {
+    .closeicon{
+        margin-top: 20px;
+        margin-right: 10px;
+        font-size: 50px;
+    }
     .player {
         margin: 50px auto;
     }
 }
 @media (max-width:580px) {
+    
     .player {
-        margin: 300px auto;
+        padding: 58%;
+        margin: 200px -36px;
     }
 }
 /* thumbnail */

@@ -104,7 +104,7 @@ window.addEventListener('scroll', function() {
   })
   var isClose = false;
   function closeMovie(){
-   $("#movie").attr("src", "https://www.youtube.com/embed/iXK4l5oVLEI?si=YM6x0q03A9XKxYee");
+   $("#movie").attr("src", "https://www.youtube.com/embed/iXK4l5oVLEI?rel=0&vq=hd1080");
    isClose = true;
   }
    
@@ -121,7 +121,7 @@ window.addEventListener('scroll', function() {
   
   var isClose1 = false;
   function closeMovie1(){
-   $("#movie1").attr("src", "https://www.youtube.com/embed/SZq6yOTxQN4?si=uiic08DeB9w1VVKD");
+   $("#movie1").attr("src", "https://www.youtube.com/embed/SZq6yOTxQN4?rel=0&vq=hd1080");
    isClose1 = true;
   }
    
@@ -138,7 +138,7 @@ window.addEventListener('scroll', function() {
   
   var isClose2 = false;
   function closeMovie2(){
-   $("#movie2").attr("src", "https://www.youtube.com/embed/rndyn-Zkpb8?si=SacQ6moVv4Pyecmq");
+   $("#movie2").attr("src", "https://www.youtube.com/embed/rndyn-Zkpb8?rel=0&vq=hd1080");
    isClose2 = true;
   }
    
