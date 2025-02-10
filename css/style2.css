@@ -392,7 +392,6 @@ body, html{
     width: 100%;
     padding-top: 56.25%;
     position: relative;
-    z-index: 90;
     border: none;
   }
 iframe{
